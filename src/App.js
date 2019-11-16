@@ -1,8 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Projects from './Projects.js';
-import About from './About.js';
-import Contact from './Contact.js';
+import { Link } from 'react-router-dom';
+import Main from './components/Main.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,15 +8,19 @@ class App extends React.Component {
   render (){
 
   return (
-    <BrowserRouter>
     <div className="App">
-      <div className ="navigation">
-        <img src ={logo} className="logo" alt="Logo Image" />
 
-      <h1> Home Component</h1>
-      </div>
+        {/*Setting up the Links*/}
+        <div className ="navigation-sub">
+        <Link to ="/" className ="links">Home</Link>
+        <Link to ="/projects" className ="links">Projects</Link>
+        <Link to ="/resume" className ="links">Resume</Link>
+        <Link to ="/about" className ="links">About</Link>
+        <Link to ="/contact" className ="links">Contact</Link>
+
+        </div>
+        <Main />
     </div>
-  </BrowserRouter>
   );
 }
 }
