@@ -6,14 +6,7 @@ class Projects extends React.Component {
 
   return (
     <div className = "project">
-    <h1> Projects</h1>
-    <Link to ="">
-    <div className="project-image">
-    <img src ="" alt="Project Image" />
-    </div>
-    <div className="project-title">""</div>
-    <div className="project-category">""</div>
-    </Link>
+      <h1>Project</h1>
     </div>
   );
 }
