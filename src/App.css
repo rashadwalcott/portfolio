@@ -36,3 +36,9 @@ background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, F
   font-size: 20px;
   padding: 1em;
 }
+.social-links {
+  display: flex;
+  justify-content: space-space-between;
+  width: 50%;
+  margin: auto;
+}
