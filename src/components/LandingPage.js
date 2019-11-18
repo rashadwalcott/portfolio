@@ -22,6 +22,7 @@ class LandingPage extends React.Component {
         <p>Javascript | React | Ruby | Rails | SQL | PostgreSQL | HTML | CSS | SASS</p>
 
         <div className='social-links'>
+
           {/* LinkedIn*/}
           <a href='https://www.linkedin.com/in/rashadwalcott/' rel='noopener noreferrer' target="_blank">
             <i className="fab fa-linkedin" aria-hidden='true'/>
@@ -36,10 +37,11 @@ class LandingPage extends React.Component {
           <a href='https://medium.com/rashads-tech-blogs' rel='noopener noreferrer' target="_blank">
             <i className="fab fa-medium-m" aria-hidden='true'/>
           </a>
-          
+
         </div>
           </div>
       </Grid>
+      
     </div>
   );
 }

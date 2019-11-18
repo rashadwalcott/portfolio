@@ -8,11 +8,16 @@ background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, F
   background: #659999;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .avatar-img {
-  height: 250px;
-  padding-top: 5em;
+  height: 375px;
+  padding-top: 9em;
 }
 .banner-text {
   background-color: black;
@@ -38,7 +43,12 @@ background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, F
 }
 .social-links {
   display: flex;
-  justify-content: space-space-between;
+  justify-content: space-between;
   width: 50%;
   margin: auto;
+}
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
