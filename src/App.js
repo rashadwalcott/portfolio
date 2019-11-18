@@ -10,7 +10,7 @@ class App extends React.Component {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header title="Portfolio" scroll>
+        <Header className='header-color' title="Portfolio" scroll>
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
