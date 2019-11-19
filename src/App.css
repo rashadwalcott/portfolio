@@ -2,6 +2,7 @@
   background: #659999;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: American Typewriter;
 
 }
 .landing-grid{
@@ -61,14 +62,16 @@ background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, F
 .banner-text {
   background-color: black;
   opacity: .8;
-  width: 75%;
+  width: 65%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 70px;
   font-weight: bold;
   color: white;
+  font-family: Apple Chancery;
+
 }
 .banner-text hr {
   border-top: 5px dotted white;
@@ -77,8 +80,9 @@ background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, F
 }
 .banner-text p {
   color: white;
-  font-size: 20px;
+  font-size: 27px;
   padding: 1em;
+  font-family: Apple Chancery;
 }
 .social-links {
   display: flex;
