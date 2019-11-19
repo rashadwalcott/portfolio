@@ -63,9 +63,10 @@ class Resume extends React.Component {
       + Monitored maintenance management programs to ensure effective management of equipment and materials <br/><br/>
 
     <h2>Education</h2>
-    <b>U.S Marine Corps</b>
-
-
+    <b>Flatiron Schoool</b> - 2019
+      + Immersive Full Stack Web Development, Ruby on Rails and JavaScript program <br/><br/>
+    <b>California College San Diego </b> - San Diego, CA - 2016 <br/>
+    + Bachelors of Science Degree in Computer Science, 3.75 GPA <br/><br/>
 
         </div>
       </Grid>
