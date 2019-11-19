@@ -29,7 +29,7 @@ background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, F
   opacity: .8;
   width: 75%;
   margin-left: 12%;
-  margin-top: 2%;
+  margin-top: 1%;
   padding-left: 2%;
   border-radius: 10px;
   padding-top: 2%;
@@ -118,5 +118,5 @@ background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, F
 	top:1px;
 }
 .download-button:focus {
-    outline: none; 
+    outline: none;
 }
