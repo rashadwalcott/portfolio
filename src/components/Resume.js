@@ -20,7 +20,7 @@ class Resume extends React.Component {
 
           + Established a Ruby on Rails API backend with endpoints for users and breweries <br/><br/>
 
-          <b>GitJobs</b><br/>
+          <b>GitJobs</b>- <a href='https://github.com/rashadwalcott/GitJobs-client'>Github (Client)</a> |<a href='https://github.com/rashadwalcott/GitJobs_API'> Github (API)</a> | <a href='https://youtu.be/hYzK2no91N8'> Demo</a><br/>
             Users can locate jobs postings on Github and save them to their profile with links to apply<br/>
 
             + Coded a user interface with React and Sass for styling <br/>
