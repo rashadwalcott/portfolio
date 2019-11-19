@@ -1,5 +1,7 @@
 import React from 'react';
 import { Grid} from 'react-mdl';
+import {Link} from 'react-router-dom'
+import resume from './RashadWalcott_Resume.pdf'
 
 class Resume extends React.Component {
   render (){
@@ -8,6 +10,7 @@ class Resume extends React.Component {
     <div style = {{width: '100', margin: 'auto'}}>
       <Grid className='resume-grid'>
         <div className ='resume-text'>
+          <a href={resume} target="_blank" download><button className='download-button'>Download</button></a>
           <h2> Technical Projects </h2>
           <b>Brewster App</b> - <a href='https://github.com/rashadwalcott/brewery-client'>Github (Client)</a> |<a href='https://github.com/rashadwalcott/brewery-api'> Github (API)</a> | <a href='https://youtu.be/Y2Xkjh6oOAU'> Demo</a><br/>
           Users can locate breweries in New York and save them to their profile and view more information about selected breweries<br/>

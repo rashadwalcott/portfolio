@@ -29,20 +29,28 @@ background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, F
   opacity: .8;
   width: 75%;
   margin-left: 12%;
-  margin-top: 3%;
+  margin-top: 2%;
   padding-left: 2%;
   border-radius: 10px;
+  padding-top: 2%;
   color: white;
   font-size: 17px;
+  font-family: American Typewriter;
 }
 .resume-text b {
   font-size: 20px;
+  font-family: American Typewriter;
 }
 .resume-text p {
   font-size: 17px;
+  font-family: American Typewriter;
 }
 .resume-text a {
   color: white;
+}
+.resume-text h2 {
+  font-family: American Typewriter;
+  font-size: 40px;
 }
 .avatar-img {
   height: 375px;
@@ -84,4 +92,31 @@ background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, F
 .projects-grid {
   display: flex;
 
+}
+
+.download-button {
+	box-shadow: 0px 0px 0px 2px #ebeef5;
+	background:linear-gradient(to bottom, #081833 5%, #02080f 100%);
+	background-color:#081833;
+	border-radius:10px;
+	border:1px solid #ebeef5;
+	/* display:inline-block; */
+	cursor:pointer;
+	color:#ffffff;
+	font-family:American Typewriter;
+	font-size:23px;
+	font-weight:bold;
+	padding:15px 31px;
+	text-shadow:0px 1px 0px #24272e;
+}
+.download-button:hover {
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+}
+.download-button:active {
+	position:relative;
+	top:1px;
+}
+.download-button:focus {
+    outline: none; 
 }
