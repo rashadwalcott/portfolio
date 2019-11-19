@@ -9,7 +9,7 @@ class Resume extends React.Component {
       <Grid className='resume-grid'>
         <div className ='resume-headers'>
           <h2> Technical Projects </h2>
-          <b>Brewster App</b><br/>
+          <b>Brewster App</b>- <a href='https://github.com/rashadwalcott/brewery-client'>Github (Client)</a> |<a href='https://github.com/rashadwalcott/brewery-api'> Github (API)</a> | <a href='https://youtu.be/Y2Xkjh6oOAU'> Demo</a><br/>
           Users can locate breweries in New York and save them to their profile and view more information about selected breweries<br/>
 
             + Connected with the Open Brewery DB API for public information on breweries <br/>
