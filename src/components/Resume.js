@@ -31,7 +31,7 @@ class Resume extends React.Component {
 
           + Employed JSON Web Tokens and localStorage to store encrypted user information on client-side <br/><br/>
 
-        <b>Shad's Recipes</b><br/>
+        <b>Shad's Recipes</b>- <a href='https://github.com/rashadwalcott/Shad-s-Recipe'>Github</a> | <a href='https://youtu.be/96hHs49ZTH8'> Demo</a><br/>
           User can view and post recipes, as well as like, and leave comments <br/>
 
           + Constructed a single page application with Vanilla Javascript <br/>
