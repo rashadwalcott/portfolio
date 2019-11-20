@@ -10,6 +10,8 @@ class Contact extends React.Component {
         <Cell col={6}>
           <h2>Contact Me </h2>
           <hr />
+
+        
         </Cell>
       </Grid>
     </div>

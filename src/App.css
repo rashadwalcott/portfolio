@@ -97,11 +97,18 @@ font-family: American Typewriter;
 .projects-grid {
   display: flex;
   font-family: American Typewriter;
+
 }
 .projects-grid h5 {
   font-family: American Typewriter;
   color: #699896;
   font-weight: bold;
+}
+.contact-grid {
+  text-align: center;
+}
+.contact-grid h2 {
+  font-family: American Typewriter;
 }
 .tabs {
   font-family: American Typewriter;
