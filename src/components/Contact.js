@@ -11,6 +11,11 @@ class Contact extends React.Component {
   handleChange = (event)=> {
     this.setState({[event.target.name]:event.target.value})
   }
+
+  handleSubmit = (event)=> {
+    event.preventDefault()
+    console.log(this.state.name,this.state.email,this.state.message);
+  }
   render (){
   return (
     <div className='contact-body'>
@@ -24,17 +29,28 @@ class Contact extends React.Component {
                 onChange={(event)=> {this.handleChange(event)}}
                 label='Name'
                 name='name'
-                required='true'
-                style={{width: '200px'}}
+                required={true}
+                style={{width: '300px'}}
                 />
               <br/>
                 <Textfield
                   onChange={(event)=> {this.handleChange(event)}}
                   label='Email'
                   name='email'
-                  required='true'
-                  style={{width: '200px'}}
+                  required={true}
+                  style={{width: '300px'}}
                   />
+                  <br/>
+                    <Textfield
+                      onChange={(event)=> {this.handleChange(event)}}
+                      label='Message'
+                      name='message'
+                      required={true}
+                      style={{width: '300px'}}
+                      rows={3}
+                      />
+                    < br/>
+                  <Button onClick={(event)=> {this.handleSubmit(event)}} primary>Submit</Button>
             </form>
           </div>
 
