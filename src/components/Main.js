@@ -5,6 +5,7 @@ import Home from './LandingPage.js';
 import About from './About.js';
 import Contact from './Contact.js';
 import Resume from './Resume.js';
+import Sent from './Sent.js';
 
 class Main extends React.Component {
   render (){
@@ -15,10 +16,11 @@ class Main extends React.Component {
 
       {/*Setting up the router*/}
       <Route exact path ="/" component ={Home} />
-      <Route exact path ="/projects" component ={Projects} />
-      <Route exact path ="/about" component ={About} />
-      <Route exact path ="/contact" component ={Contact} />
-      <Route exact path ="/resume" component ={Resume} />
+      <Route  path ="/projects" component ={Projects} />
+      <Route  path ="/about" component ={About} />
+      <Route  path ="/contact" component ={Contact} />
+      <Route  path ="/resume" component ={Resume} />
+      <Route path='/sent' component={Sent} />
       </Switch>
     </div>
 
