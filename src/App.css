@@ -112,6 +112,37 @@ font-family: American Typewriter;
   height:60%;
   border-radius: 50px 15px;
 }
+.about-body {
+  background: #659999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* margin:auto; */
+  justify-content: center;
+  padding-top: 2em;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.about-grid {
+  text-align: center;
+  justify-content: center;
+  background: white;
+  width: 65%;
+  height:76%;
+  border-radius: 50px 15px;
+}
+.about-grid p {
+  width: 95%;
+  text-align: center;
+    margin: auto;
+    padding-top: 4%;
+    font-family: American Typewriter;
+    font-size: 115%;
+}
+.about-grid h2 {
+  font-family: American Typewriter;
+  padding-top: 2%;
+}
 .contact-grid h2 {
   font-family: American Typewriter;
   margin-top: 9%;
