@@ -51,29 +51,33 @@ class Contact extends React.Component {
                 required={true}
                 value={this.state.name}
                 style={{width: '300px'}}
+                className='textfield'
                 />
               <br/>
                 <Textfield
                   onChange={(event)=> {this.handleChange(event)}}
                   label='Email'
                   name='email'
+                  type='email'
                   required={true}
                   value={this.state.email}
                   style={{width: '300px'}}
+                  className='textfield'
                   />
                   <br/>
                     <Textfield
                       onChange={(event)=> {this.handleChange(event)}}
-                      label='Message'
+                      label="Message"
                       type='textarea'
                       name='message'
                       required={true}
                       value={this.state.message}
                       style={{width: '300px'}}
                       rows={3}
+                      className='textfield'
                       />
                     < br/>
-                  <Button type='submit' onClick={(event)=> {this.handleSubmit(event)}} primary>Submit</Button>
+                  <button className='contactbutton' type='submit' onClick={(event)=> {this.handleSubmit(event)}} primary='true'>Submit</button>
             </form>
           </div>
 

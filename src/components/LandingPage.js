@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Cell} from 'react-mdl';
-import mypic from './picofme.jpeg'
+import mypic from '../picofme.jpeg'
 class LandingPage extends React.Component {
   render (){
 
@@ -41,7 +41,7 @@ class LandingPage extends React.Component {
         </div>
           </div>
       </Grid>
-      
+
     </div>
   );
 }

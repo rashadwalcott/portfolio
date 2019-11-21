@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid} from 'react-mdl';
 import {Link} from 'react-router-dom'
-import resume from './RashadWalcott_Resume.pdf'
+import resume from '../RashadWalcott_Resume.pdf'
 
 class Resume extends React.Component {
   render (){
