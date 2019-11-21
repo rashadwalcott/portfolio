@@ -15,6 +15,15 @@ class Contact extends React.Component {
   handleSubmit = (event)=> {
     event.preventDefault()
     console.log(this.state.name,this.state.email,this.state.message);
+    this.resetForm()
+    }
+
+  resetForm(){
+    this.setState({
+         name: '',
+         email: '',
+         message: ''
+       })
   }
   render (){
   return (
