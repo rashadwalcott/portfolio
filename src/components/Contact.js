@@ -1,5 +1,6 @@
 import React from 'react';
-import { Cell , Grid, Button, Textfield} from 'react-mdl'
+import { Cell , Grid, Button, Textfield} from 'react-mdl';
+import * as emailjs from 'emailjs-com';
 
 class Contact extends React.Component {
   state={
@@ -14,8 +15,16 @@ class Contact extends React.Component {
 
   handleSubmit = (event)=> {
     event.preventDefault()
-    console.log(this.state.name,this.state.email,this.state.message);
+    const {name, email ,message} = this.state
+    emailjs.send(
+      'gmail',
+      'contact_form',
+      {'from_name': name,'to_name': 'Rashad','from_email':email,'message_html':message},
+      'user_7t9HDHKcJotRFmlPLT3jW'
+    )
     this.resetForm()
+
+    this.props.history.push('/sent');
     }
 
   resetForm(){
@@ -38,7 +47,9 @@ class Contact extends React.Component {
                 onChange={(event)=> {this.handleChange(event)}}
                 label='Name'
                 name='name'
+                type='text'
                 required={true}
+                value={this.state.name}
                 style={{width: '300px'}}
                 />
               <br/>
@@ -47,19 +58,22 @@ class Contact extends React.Component {
                   label='Email'
                   name='email'
                   required={true}
+                  value={this.state.email}
                   style={{width: '300px'}}
                   />
                   <br/>
                     <Textfield
                       onChange={(event)=> {this.handleChange(event)}}
                       label='Message'
+                      type='textarea'
                       name='message'
                       required={true}
+                      value={this.state.message}
                       style={{width: '300px'}}
                       rows={3}
                       />
                     < br/>
-                  <Button onClick={(event)=> {this.handleSubmit(event)}} primary>Submit</Button>
+                  <Button type='submit' onClick={(event)=> {this.handleSubmit(event)}} primary>Submit</Button>
             </form>
           </div>
 
