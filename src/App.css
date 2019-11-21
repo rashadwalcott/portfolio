@@ -106,9 +106,51 @@ font-family: American Typewriter;
 }
 .contact-grid {
   text-align: center;
+  justify-content: center;
+  background: white;
+  width: 65%;
+  height:60%;
+  border-radius: 50px 15px;
 }
 .contact-grid h2 {
   font-family: American Typewriter;
+  margin-top: 9%;
+  color:black;
+}
+.contact-grid hr {
+  background: #659999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 5%;
+}
+.contactbutton {
+  background: #659999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius:10px;
+  cursor:pointer;
+  font-family:American Typewriter;
+	font-size:23px;
+	font-weight:bold;
+	padding:15px 31px;
+  text-shadow:0px 1px 0px #659999;
+  margin-top: 4%;
+}
+.textfield {
+  font-family: American Typewriter;
+}
+
+.contact-body {
+  background: #659999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* margin:auto; */
+  justify-content: center;
+  padding-top: 3em;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+
 }
 .tabs {
   font-family: American Typewriter;
