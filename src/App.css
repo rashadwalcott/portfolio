@@ -127,12 +127,12 @@ font-family: American Typewriter;
   text-align: center;
   justify-content: center;
   background: white;
-  width: 65%;
-  height:76%;
+  width: 55%;
+  height:78%;
   border-radius: 50px 15px;
 }
 .about-grid p {
-  width: 95%;
+  width: 90%;
   text-align: center;
     margin: auto;
     padding-top: 4%;
