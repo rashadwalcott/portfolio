@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "www.rashadwalcott.com/static/css/main.4f2de1eb.chunk.css",
-    "main.js": "www.rashadwalcott.com/static/js/main.1b8344fe.chunk.js",
-    "main.js.map": "www.rashadwalcott.com/static/js/main.1b8344fe.chunk.js.map",
-    "runtime-main.js": "www.rashadwalcott.com/static/js/runtime-main.3287004d.js",
-    "runtime-main.js.map": "www.rashadwalcott.com/static/js/runtime-main.3287004d.js.map",
-    "static/css/2.559fd73f.chunk.css": "www.rashadwalcott.com/static/css/2.559fd73f.chunk.css",
-    "static/js/2.19c4bad0.chunk.js": "www.rashadwalcott.com/static/js/2.19c4bad0.chunk.js",
-    "static/js/2.19c4bad0.chunk.js.map": "www.rashadwalcott.com/static/js/2.19c4bad0.chunk.js.map",
-    "index.html": "www.rashadwalcott.com/index.html",
-    "precache-manifest.4079f17923eeee78b3aeeb2f3b4ce946.js": "www.rashadwalcott.com/precache-manifest.4079f17923eeee78b3aeeb2f3b4ce946.js",
-    "service-worker.js": "www.rashadwalcott.com/service-worker.js",
-    "static/css/2.559fd73f.chunk.css.map": "www.rashadwalcott.com/static/css/2.559fd73f.chunk.css.map",
-    "static/css/main.4f2de1eb.chunk.css.map": "www.rashadwalcott.com/static/css/main.4f2de1eb.chunk.css.map",
-    "static/media/RashadWalcott_Resume.pdf": "www.rashadwalcott.com/static/media/RashadWalcott_Resume.5cc15c26.pdf",
-    "static/media/aboutmepic.jpeg": "www.rashadwalcott.com/static/media/aboutmepic.febaba32.jpeg",
-    "static/media/picofme.jpeg": "www.rashadwalcott.com/static/media/picofme.174c4492.jpeg"
+    "main.css": "/portfolio/static/css/main.4f2de1eb.chunk.css",
+    "main.js": "/portfolio/static/js/main.d9ce43e7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d9ce43e7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.86a05020.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.86a05020.js.map",
+    "static/css/2.559fd73f.chunk.css": "/portfolio/static/css/2.559fd73f.chunk.css",
+    "static/js/2.19c4bad0.chunk.js": "/portfolio/static/js/2.19c4bad0.chunk.js",
+    "static/js/2.19c4bad0.chunk.js.map": "/portfolio/static/js/2.19c4bad0.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.84a18ba923f8db9d60ad8c52191f0272.js": "/portfolio/precache-manifest.84a18ba923f8db9d60ad8c52191f0272.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.559fd73f.chunk.css.map": "/portfolio/static/css/2.559fd73f.chunk.css.map",
+    "static/css/main.4f2de1eb.chunk.css.map": "/portfolio/static/css/main.4f2de1eb.chunk.css.map",
+    "static/media/RashadWalcott_Resume.pdf": "/portfolio/static/media/RashadWalcott_Resume.5cc15c26.pdf",
+    "static/media/aboutmepic.jpeg": "/portfolio/static/media/aboutmepic.febaba32.jpeg",
+    "static/media/picofme.jpeg": "/portfolio/static/media/picofme.174c4492.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3287004d.js",
+    "static/js/runtime-main.86a05020.js",
     "static/css/2.559fd73f.chunk.css",
     "static/js/2.19c4bad0.chunk.js",
     "static/css/main.4f2de1eb.chunk.css",
-    "static/js/main.1b8344fe.chunk.js"
+    "static/js/main.d9ce43e7.chunk.js"
   ]
 }
