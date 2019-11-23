@@ -15,7 +15,7 @@ class LandingPage extends React.Component {
             </Cell>
 
           <div className='banner-text'>
-            <h1> Full Stack Web Developer</h1>
+            <h1> Full Stack Developer</h1>
 
           <hr/>
 

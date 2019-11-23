@@ -4,6 +4,9 @@ background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-2
 background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 font-family: American Typewriter;
 }
+.header-drawer {
+  font-family: American Typewriter;
+}
 .landing-grid{
   background: #659999;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
@@ -75,7 +78,7 @@ font-family: American Typewriter;
 }
 .banner-text hr {
   border-top: 5px dotted white;
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 .banner-text p {

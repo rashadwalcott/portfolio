@@ -19,7 +19,7 @@ class App extends React.Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer className='header-top' title="P O R T F O L I O">
+        <Drawer className='header-drawer' title="P O R T F O L I O">
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/projects">Projects</Link>
