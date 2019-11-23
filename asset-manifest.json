@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5f085b06.chunk.css",
-    "main.js": "/portfolio/static/js/main.b5991abd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b5991abd.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.86a05020.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.86a05020.js.map",
-    "static/css/2.559fd73f.chunk.css": "/portfolio/static/css/2.559fd73f.chunk.css",
-    "static/js/2.19c4bad0.chunk.js": "/portfolio/static/js/2.19c4bad0.chunk.js",
-    "static/js/2.19c4bad0.chunk.js.map": "/portfolio/static/js/2.19c4bad0.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.752b57d37da5b4cfc95d4cbbf1bdb2af.js": "/portfolio/precache-manifest.752b57d37da5b4cfc95d4cbbf1bdb2af.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.559fd73f.chunk.css.map": "/portfolio/static/css/2.559fd73f.chunk.css.map",
-    "static/css/main.5f085b06.chunk.css.map": "/portfolio/static/css/main.5f085b06.chunk.css.map",
-    "static/media/RashadWalcott_Resume.pdf": "/portfolio/static/media/RashadWalcott_Resume.5cc15c26.pdf",
-    "static/media/aboutmepic.jpeg": "/portfolio/static/media/aboutmepic.febaba32.jpeg",
-    "static/media/picofme.jpeg": "/portfolio/static/media/picofme.174c4492.jpeg"
+    "main.css": "/static/css/main.5f085b06.chunk.css",
+    "main.js": "/static/js/main.b16a1eea.chunk.js",
+    "main.js.map": "/static/js/main.b16a1eea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8896086d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8896086d.js.map",
+    "static/css/2.559fd73f.chunk.css": "/static/css/2.559fd73f.chunk.css",
+    "static/js/2.19c4bad0.chunk.js": "/static/js/2.19c4bad0.chunk.js",
+    "static/js/2.19c4bad0.chunk.js.map": "/static/js/2.19c4bad0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1faadcce4a8d35976a2b795962231925.js": "/precache-manifest.1faadcce4a8d35976a2b795962231925.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.559fd73f.chunk.css.map": "/static/css/2.559fd73f.chunk.css.map",
+    "static/css/main.5f085b06.chunk.css.map": "/static/css/main.5f085b06.chunk.css.map",
+    "static/media/RashadWalcott_Resume.pdf": "/static/media/RashadWalcott_Resume.5cc15c26.pdf",
+    "static/media/aboutmepic.jpeg": "/static/media/aboutmepic.febaba32.jpeg",
+    "static/media/picofme.jpeg": "/static/media/picofme.174c4492.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.86a05020.js",
+    "static/js/runtime-main.8896086d.js",
     "static/css/2.559fd73f.chunk.css",
     "static/js/2.19c4bad0.chunk.js",
     "static/css/main.5f085b06.chunk.css",
-    "static/js/main.b5991abd.chunk.js"
+    "static/js/main.b16a1eea.chunk.js"
   ]
 }
