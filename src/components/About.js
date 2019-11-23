@@ -13,14 +13,15 @@ class About extends React.Component {
           <img
             src={aboutmepic}
             alt='avatar'
-            style={{height: '325px', fontFamily: 'American Typewriter',borderRadius: '25px'}} />
+            style={{height: '10%', fontFamily: 'American Typewriter',borderRadius: '25px',justifyContent: 'center'}} />
 
           <p> Full Stack Developer with expertise in JavaScript, React and Ruby on Rails.
             I discovered my love for computer programming ever since I took my first Java class in high school.
             My path lead me to join the Marine Corps but after completing my contract, I just had to finish what I started.
             I pushed forward and earned a Bachelor's degree in Computer Science.
             Combined with my military experience, I bring strong skills in problem solving
-            by using inventive ideas in the support of team collaboration and productivity.</p>
+            by using inventive ideas in the support of team collaboration and productivity. <br />
+          Email: rashad.walcott15@gmail.com</p>
         </Cell>
       </Grid>
     </div>

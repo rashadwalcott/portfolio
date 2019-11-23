@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "www.rashadwalcott.com"
+  "homepage": "https://rashadwalcott.github.io/portfolio/",
   "dependencies": {
     "emailjs-com": "^2.4.1",
     "framer-motion": "^1.6.15",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",

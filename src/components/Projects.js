@@ -13,7 +13,7 @@ class Projects extends React.Component {
       return (
         <div className='projects-grid'>
           {/*First React Project */}
-        <Card shadow={5} style={{width: '550px', margin: 'auto'}}>
+        <Card shadow={5} style={{width: '35%', margin: 'auto'}}>
           <CardTitle style={{color: 'black', height: '176px', background: 'url(https://camo.githubusercontent.com/b7468bd447a0e7a54e9eb4713f938f3d2a7f5c25/68747470733a2f2f692e696d6775722e636f6d2f547a52757131752e6a7067) center / cover'}}></CardTitle>
           <CardText style={{color:'#699896',fontWeight: '600'}}>
             <h5>Brewster App</h5>
@@ -31,7 +31,7 @@ class Projects extends React.Component {
           </CardMenu>
         </Card>
         {/*Second React Project */}
-        <Card shadow={5} style={{width: '550px', margin: 'auto'}}>
+        <Card shadow={5} style={{width: '35%', margin: 'auto'}}>
           <CardTitle style={{color: 'black', height: '176px', background: 'url(https://camo.githubusercontent.com/ceda4fd4e948d67e564832f82a65855219675135/68747470733a2f2f692e696d6775722e636f6d2f345664516e63762e6a7067) center / cover'}}></CardTitle>
           <CardText style={{color:'#699896',fontWeight: '600'}}>
             <h5>GitJobs</h5>
@@ -52,7 +52,7 @@ class Projects extends React.Component {
     else if(this.state.activeTab === 1){
       return (
         <div className='projects-grid'>
-        <Card shadow={5} style={{width: '550px', margin: 'auto'}}>
+        <Card shadow={5} style={{width: '35%', margin: 'auto'}}>
           <CardTitle style={{color: 'black', height: '176px', background: 'url(https://camo.githubusercontent.com/b62d5075f07123140d859e8f1952fdb47065ebf2/68747470733a2f2f692e696d6775722e636f6d2f754b594c6453382e6a7067) center / cover'}}></CardTitle>
           <CardText style={{color:'#699896',fontWeight: '600'}}>
             <h5>Shad's Recipes</h5>
