@@ -12,7 +12,7 @@ font-family: American Typewriter;
   background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -58,19 +58,19 @@ font-family: American Typewriter;
 .avatar-img {
   height: 300px;
   /* padding-top: 4em; */
-  border-radius: 35px;
+  border-radius: 45px;
   margin-top: 5%;
 }
 .banner-text {
   background-color: black;
   opacity: .8;
-  width: 69%;
+  width: 80%;
   margin: auto;
-  margin-top: -30px;
+  /* margin-top: -30px; */
   border-radius: 20px;
 }
 .banner-text h1 {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: bold;
   color: white;
   font-family: Apple Chancery;
@@ -83,7 +83,7 @@ font-family: American Typewriter;
 }
 .banner-text p {
   color: white;
-  font-size: 27px;
+  font-size: 25px;
   padding: 1em;
   font-family: Apple Chancery;
 }
@@ -95,7 +95,7 @@ font-family: American Typewriter;
 }
 .social-links i {
   color: white;
-  font-size: 5em;
+  font-size: 4em;
   /* padding: 8px; */
 }
 .projects-grid {
@@ -137,12 +137,12 @@ font-family: American Typewriter;
   border-radius: 50px 15px;
 }
 .about-grid p {
-  width: 80%;
+  width: 75%;
   /* text-align: center; */
     margin: auto;
     padding-top: 1em;
     font-family: American Typewriter;
-    font-size: 125%;
+    font-size: 120%;
 }
 .about-grid h2 {
   font-family: American Typewriter;

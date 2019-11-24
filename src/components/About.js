@@ -13,7 +13,7 @@ class About extends React.Component {
           <img
             src={aboutmepic}
             alt='avatar'
-            style={{height: '10%', fontFamily: 'American Typewriter',borderRadius: '25px',justifyContent: 'center'}} />
+            style={{height: '8%', fontFamily: 'American Typewriter',borderRadius: '25px',justifyContent: 'center'}} />
 
           <p> Full Stack Developer with expertise in JavaScript, React and Ruby on Rails.
             I discovered my love for computer programming ever since I took my first Java class in high school.
