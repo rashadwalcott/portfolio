@@ -131,7 +131,7 @@ font-family: American Typewriter;
 .about-grid {
   text-align: center;
   justify-content: center;
-  position:absolute;
+  /* position:absolute; */
   /* background: white; */
   /* width: 65%;
   height:80%; */
